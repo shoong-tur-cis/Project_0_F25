@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <time.h>
 
+#include "random.h"
+
 
 
 // random string generator wrapper function
@@ -22,7 +24,7 @@ int main()
 
 {
     char *str;
-    size_t size =   ;  //specify a value for size of word
+    size_t size = 12;  //specify a value for size of word
 
 	/* seed the randomizer */
 	srand( (unsigned)time(NULL) );
